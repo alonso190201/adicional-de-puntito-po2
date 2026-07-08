@@ -48,7 +48,7 @@ CREATE TABLE Prestamos (
 GO
 
 
-INSERT INTO Usuarios (Username, Password) VALUES ('admin', '123456');
+INSERT INTO Usuarios (Username, Password) VALUES ('admin', 'admin');
 GO
 
 INSERT INTO Equipos (Codigo, Nombre, Descripcion, Disponible) VALUES 
