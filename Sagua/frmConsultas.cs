@@ -10,7 +10,7 @@ namespace Sagua
         public frmConsultas()
         {
             InitializeComponent();
-            dd
+            
         }
 
         private void btnEquiposDisponibles_Click(object sender, EventArgs e)
