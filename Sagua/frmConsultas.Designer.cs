@@ -167,6 +167,8 @@ namespace Sagua
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(730, 460);
             this.Controls.Add(this.dgvResultados);
             this.Controls.Add(this.btnBuscarPrestamosEstudiante);
@@ -182,9 +184,11 @@ namespace Sagua
             this.Controls.Add(this.lblCodigoEstudiante);
             this.Controls.Add(this.btnEquiposPrestados);
             this.Controls.Add(this.btnEquiposDisponibles);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.ForeColor = System.Drawing.Color.Blue;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "frmConsultas";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Consultas";
             this.Load += new System.EventHandler(this.frmConsultas_Load);

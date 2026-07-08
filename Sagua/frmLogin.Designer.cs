@@ -30,7 +30,7 @@ namespace Sagua
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(50, 50);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(43, 13);
+            this.lblUsername.Size = new System.Drawing.Size(46, 13);
             this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "Usuario:";
             // 
@@ -84,8 +84,10 @@ namespace Sagua
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login - Sistema de Préstamos";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

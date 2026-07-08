@@ -79,7 +79,7 @@ namespace Sagua
             this.lblEscuela.AutoSize = true;
             this.lblEscuela.Location = new System.Drawing.Point(12, 119);
             this.lblEscuela.Name = "lblEscuela";
-            this.lblEscuela.Size = new System.Drawing.Size(102, 13);
+            this.lblEscuela.Size = new System.Drawing.Size(103, 13);
             this.lblEscuela.TabIndex = 4;
             this.lblEscuela.Text = "Escuela Profesional:";
             // 
@@ -191,6 +191,7 @@ namespace Sagua
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Cornsilk;
             this.ClientSize = new System.Drawing.Size(630, 460);
             this.Controls.Add(this.dgvEstudiantes);
             this.Controls.Add(this.btnEliminar);
@@ -209,7 +210,8 @@ namespace Sagua
             this.Controls.Add(this.lblNombres);
             this.Controls.Add(this.lblDNI);
             this.Controls.Add(this.lblCodigo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.ForeColor = System.Drawing.Color.Blue;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "frmEstudiantes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -218,6 +220,7 @@ namespace Sagua
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
